@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border : 1px solid violet; */
+}
+
+#header {
+    padding : 20px;
+    text-align: center;
+}
+
+#menu {
+    width : 80vw;
+    margin : 10px auto;
+    padding : 5px;
+    border-radius: 10px;
+    background-color: olive;
+    font-weight: 500;
+}
+
+#menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+#menu ul li {
+    list-style: none;
+    padding : 5px;
+}
+
+#menu ul li a {
+    color : white;
+    text-decoration: none;
+}
+
+#content {
+    width : 80vw;
+    margin : 0 auto;
+}
+
+#content h2 {
+    text-align: center;
+}
+
+#content a {
+    color : black;
+    justify-content: right;
+}
+
+#content #main-img {
+    width : 100%;
+    border-radius: 10px;
+}
+
+#content form {
+    width : 40vw;
+    margin : 10px auto;
+}
+#content form div {
+    display: flex;
+    justify-content: space-between;
+    margin : 5px;
+}
+
+#content form div b {
+    width : 30%;
+    margin-right: 5px;
+    text-align: center;
+}
+
+#content form div input,
+#content form div textarea {
+    width : 70%;
+}
+
+#content form #addMovieBtn,
+#content form #addBoardBtn,
+#back, #modifyBtn, #delete {
+    margin : 10px;
+    background-color: olive;
+    color: white;
+    font-weight: 500;
+    padding : 5px;
+    border: none;
+    border-radius: 5px;;
+}
+
+#content #movie-list {
+    width : 60vw;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#content #movie-list li {
+    list-style: none; 
+    width : 90%;
+}
+
+#content #movie-list li a {
+    display: grid;
+}
+
+#content #movie-list li a img {
+    width : 100%;
+}
+#content #movie-list li a label {
+    width : 100%;
+    text-align: center;
+    padding : 5px;
+}
+
+#content #movieDetail {
+    width : 60vw;
+    margin : 20px auto;
+    display: flex;
+}
+
+#content #movieDetail img {
+    width : 40%;
+    margin-right: 20px;
+}
+
+#content #movieTime-list {
+    width : 60vw;
+    margin : 20px auto;
+}
+
+#content #movieTime-list li {
+    list-style: none;
+    margin: 5px;
+    display: flex;
+    border: 1px solid #ccc;
+}
+
+#content #movieTime-list li b{
+    width : 20%;
+    padding: 5px;
+    text-align: center;
+    margin-right: 20px;
+    border-right: 1px solid #ccc;
+}
+
+#content #movieTime-list li span {
+    width : 80%;
+}
+
+#content #board-list {
+    width : 60vw;
+    margin : 20px auto;
+}
+
+#content #board-list ul {
+    display: flex;
+    justify-content: space-around;
+    padding : 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+#content #board-list ul li {
+        list-style: none;
+}
+/* #content #board-list p {
+    text-align: center;
+    padding: 20px;
+} */
+
+#footer {
+    width : 80vw;
+    margin : 5px auto;
+    padding : 5px;
+    border-radius: 10px;
+    background-color: olive;
+    color : white;
+    font-size: 0.8em;
+    text-align: center;
+}
